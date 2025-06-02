@@ -67,9 +67,8 @@ public:
         }
         cout << endl;
     }
-    ~ArrayStack() {
-        // Destructor to clean up resources if needed
-    }
+    ~ArrayStack() {}
+
 };
 
 int main() {
@@ -79,12 +78,12 @@ int main() {
     stack.push(20);
     stack.push(30);
 
-    cout << "Top element: " << stack.peek() << endl; // Output: 30
-    cout << "Stack size: " << stack.size() << endl; // Output: 3
+    cout << "Top element: " << stack.peek() << endl; 
+    cout << "Stack size: " << stack.size() << endl; 
 
-    cout << "Popped element: " << stack.pop() << endl; // Output: 30
-    cout << "New top element: " << stack.peek() << endl; // Output: 20
-    stack.display(); // Output: Stack elements: 10 20
+    cout << "Popped element: " << stack.pop() << endl; 
+    cout << "New top element: " << stack.peek() << endl; 
+    stack.display(); 
 
     return 0;
 }

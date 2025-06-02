@@ -4,6 +4,7 @@ using namespace std;
  * Custom Linked List Stack Implementation in C++
  * This code implements a stack using a singly linked list.
  * It supports basic operations like push, pop, peek, isEmpty, size, and display.
+ * same as ArrayStack, but using a linked list instead of an array.
  * Time Complexity:
  * - Push: O(1)
  * - Pop: O(1)
